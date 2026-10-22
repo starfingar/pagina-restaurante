@@ -11,7 +11,7 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   min-height: 100dvh;
   background-color: #20251F;
@@ -62,4 +62,47 @@ body {
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-thickness: 3px;
+}
+
+#content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  color: #E6A15A;
+}
+
+.home-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 16px;
+  padding: 16px;
+}
+
+.home-container .home-titulo {
+  font-size: clamp(2rem, 10vw, 5rem);
+  font-weight: 900;
+}
+
+.home-container .home-descricao {
+  font-size: clamp(0.7rem, 4vw, 1.5rem);
+}
+
+.home-container .home-horarios h3 {
+  margin-top: 32px;
+  font-size: clamp(1.4rem, 7vw, 3.5rem);
+  font-weight: 900;
+}
+
+.home-container .home-horarios p {
+  font-size: clamp(0.6rem, 5vw, 1.3rem);
 }
