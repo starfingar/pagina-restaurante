@@ -153,3 +153,42 @@ body {
   transform: scale(1.02) translateY(-2px);
   filter: brightness(90%);
 }
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  gap: 16px;
+  padding: 16px;
+}
+
+.contact-container .contact-endereco {
+  font-weight: 700;
+  font-size: clamp(1.1rem, 5vw, 2.5rem);
+}
+
+.contact-container .contact-telefone {
+  font-weight: 700;
+  font-size: clamp(1.1rem, 5vw, 2.5rem);
+}
+
+.contact-container .contact-email {
+  font-weight: 700;
+  font-size: clamp(1.1rem, 5vw, 2.5rem)
+}
+
+.contact-endereco::before {
+  content: 'Endereço: ';
+}
+
+.contact-telefone::before {
+  content: 'Telefone: ';
+}
+
+.contact-email::before {
+  content: 'Email: ';
+}
