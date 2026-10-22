@@ -106,3 +106,50 @@ body {
 .home-container .home-horarios p {
   font-size: clamp(0.6rem, 5vw, 1.3rem);
 }
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 720px;
+  padding: 16px;
+}
+
+.menu-container .menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  background-color: #F4EBDD;
+  width: 100%;
+  padding: 16px;
+  gap: 12px;
+  border-radius: 20px;
+  border: 2px solid #F4EBDD;
+  transition: 0.2s ease;
+}
+
+.menu-container .menu-item .item-nome {
+  font-size: clamp(1rem, 5vw, 2.2rem);
+  font-weight: 800;
+}
+
+.menu-container .menu-item .item-descricao {
+  font-size: clamp(0.9rem, 3vw, 1.8rem);
+  font-weight: 600;
+}
+
+.menu-container .menu-item .item-preco {
+  margin-top: 12px;
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  font-weight: 800;
+  color: #20251F;
+}
+
+.menu-container .menu-item:hover {
+  transform: scale(1.02) translateY(-2px);
+  filter: brightness(90%);
+}
