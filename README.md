@@ -1,6 +1,6 @@
 # Página de Restaurante
 
-## Projeto em desenvolvimento
+## Projeto
 Focado na prática de manipulação dinâmica do DOM utilizando JavaScript e Webpack.
 
 ### Estrutura de Pastas
@@ -19,4 +19,4 @@ pagina-restaurante/
 ```
 
 ### Status
-O projeto está em fase de construção e refinamento, ainda não estando pronto para execução final ou produção.
+O projeto está concluído! Acesse em [https://starfingar.github.io/pagina-restaurante/](https://starfingar.github.io/pagina-restaurante/)
